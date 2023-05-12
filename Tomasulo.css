@@ -1,0 +1,109 @@
+
+body {
+    font-size: 12pt;
+    background-color: rgb(216, 216, 216);
+
+}
+
+#instructions {
+    width: 100%;
+}
+
+@media screen and (min-width: 60em) {
+    #instructions {
+        width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #ff7575;
+}
+
+
+table {
+    color: #000;
+    font-size: 14px;
+    background: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+table th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(0, 0, 0);
+    background: #ff7575;
+}
+
+table tr {
+    text-align: center;
+    padding-left: 16px;
+    background: #fff;
+
+}
+
+table td {
+    border: 1px solid #eee;
+    padding: 1px;
+    background: #fff;
+}
+
+table tr .highlight {
+    background: #fb9ed4;
+}
+
+.destination {
+    background: #ffb7b7;
+}
+
+.source {
+    background: #86fdeb;
+}
+
+.sourceOccupied {
+    background: #fff2a8;
+}
+
+.destinationOccupied {
+    background: #66a9f6;
+}
+
+#InstructionStatus {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ReservationStations {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+#RegisterStatus {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+   
+
+}
+
+.tooltip {
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #161616;
+    border-radius: 5px;
+    padding: 3px;
+    color: #fff;
+    font-size: 12px;
+}
